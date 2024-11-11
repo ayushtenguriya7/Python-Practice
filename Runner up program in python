@@ -1,0 +1,8 @@
+a=input()
+list1=list(map(int,a.split(" ")))
+list2=sorted(list1)
+list3=[]
+for i in list2:
+    if i not in list3:
+        list3.append(i)
+print(list3[1])
